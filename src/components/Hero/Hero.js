@@ -7,7 +7,8 @@ import Calories from '../../assets/calories.png';
 import Header from '../Header/Header';
 import {motion} from 'framer-motion';
 const Hero = () => {
-    const transition = {type:'spring',duration: 3}
+    const transition = {type:'spring',duration: 3};
+    const mobile = window.innerWidth<=768 ? true : false;
   return (
     <div className='hero'>
         <div className='blur hero-blur'></div>
