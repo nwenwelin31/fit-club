@@ -88,7 +88,7 @@
     width: 8rem;
     border: 2px solid var(--orange);
 }
-.right-h>btn{
+.right-h>.btn{
     position: absolute;
     right: 3rem;
     top: 2rem;

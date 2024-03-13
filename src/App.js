@@ -1,4 +1,5 @@
 import './App.css';
+import Testimonials from './assets/Testimonials/Testimonials';
 import Hero from './components/Hero/Hero';
 import Plans from './components/Plans/Plans';
 import Programs from './components/Programs/Programs';
@@ -11,6 +12,7 @@ function App() {
         <Programs/>
         <Reasons/>
         <Plans/>
+        <Testimonials/>
     </div>
   );
 }
