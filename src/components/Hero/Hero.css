@@ -98,7 +98,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: darkgray;
+    background-color: var(--darkGrey);
     width: fit-content;
     padding: 1rem;
     align-items: start;
@@ -154,4 +154,9 @@
 .calories > div > :nth-child(2){
     color: white;
     font-size: 1.5rem;
+}
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
 }
