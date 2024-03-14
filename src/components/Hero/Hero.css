@@ -222,5 +222,7 @@
     }
     .hero-image-back{
         width: 15rem;
+        left: 2rem;
+        top: 0rem;
     }
 }
