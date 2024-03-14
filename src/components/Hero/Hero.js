@@ -83,7 +83,7 @@ const Hero = () => {
             initial={{ right:'11rem' }}
             whileInView={{ right:'20rem' }}
             transition={transition}
-            src={hero_image_back} alt='hero' className='hero-image_back'/>
+            src={hero_image_back} alt='hero' className='hero-image-back'/>
             {/* calories */}
             <motion.div 
                 initial={{ right:'37rem' }}
